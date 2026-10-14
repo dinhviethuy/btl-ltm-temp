@@ -1,0 +1,32 @@
+{
+  "name": "@ftp-client/client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "test": "node --test test/*.spec.ts",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/dm-mono": "^5.3.0",
+    "@fontsource/libre-franklin": "^5.3.0",
+    "@fontsource/newsreader": "^5.3.0",
+    "lucide-react": "^1.33.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^5.2.0",
+    "electron": "^43.4.1",
+    "electron-vite": "^5.0.0",
+    "typescript": "^5.9.3"
+  }
+}
